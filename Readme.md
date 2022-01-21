@@ -15,3 +15,8 @@ Design a service which can tell if a user is online. </br>
 * Presence entry to expire after TTL
 * Database to save entry for analytics
 * Database to soft delete entries
+
+
+#### Start Application
+1. docker run --name redis-local -p 6379:6379 -d redis:latest
+2. go run *.go
